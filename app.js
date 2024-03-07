@@ -30,7 +30,7 @@ function winCheck() {
   }
   if (winCheck == 0) {
     restartGame();
-    createBoard();
+    gamestart = !gamestart;
     console.log("WIN");
   }
 }
@@ -127,7 +127,7 @@ function changeColor(event) {
   if (!bombcheckFlag) {
     if (startPieces[clikedDiv.id] === "m") {
       restartGame();
-      createBoard();
+      gamestart = !gamestart;
       console.log("LOSE");
     }
     if (startPieces[clikedDiv.id] === 0) {
