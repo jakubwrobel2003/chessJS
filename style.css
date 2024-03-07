@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+#gameboard {
+  width: 400px;
+  height: 400px;
+  /* // background-color: rgb(97, 90, 90); */
+
+  display: flex;
+  flex-wrap: wrap;
+}
+.squere {
+  height: 46px;
+  width: 46px;
+  background-color: rgb(97, 90, 90);
+  border: 2px solid black;
+}
+.beige {
+  background-color: rgb(110, 110, 98);
+}
+.brown {
+  background-color: rgb(169, 43, 43);
+}
